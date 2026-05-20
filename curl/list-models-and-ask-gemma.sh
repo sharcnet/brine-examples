@@ -40,7 +40,7 @@ curl --fail-with-body --silent --show-error \
   "messages": [
     {
       "role": "user",
-      "content": "In two sentences, explain what SHARCNET Brine is useful for."
+      "content": "In two sentences, explain what high performance computing is."
     }
   ],
   "temperature": 0.2,

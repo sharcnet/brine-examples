@@ -61,7 +61,7 @@ const completion = await apiRequest("POST", "/chat/completions", {
   messages: [
     {
       role: "user",
-      content: "In two sentences, explain what SHARCNET Brine is useful for.",
+      content: "In two sentences, explain what high performance computing is.",
     },
   ],
   temperature: 0.2,
