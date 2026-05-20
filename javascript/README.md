@@ -1,14 +1,11 @@
 # JavaScript example
 
-Runs two OpenAI-compatible API calls against SHARCNET Brine:
+Requires Node.js 18+.
 
-1. `GET /models` to list available models.
-2. `POST /chat/completions` to ask `gemma-4-31B-it` a question.
-
-Requires Node.js 18+ for built-in `fetch`.
+Edit the variables at the top of `list-models-and-ask-gemma.mjs`, or export them first:
 
 ```bash
-cp ../.env.example ../.env
-$EDITOR ../.env
+export BRINE_BASE_URL="https://brine.example.org/v1"
+export BRINE_API_KEY="paste-your-access-key-here"
 node list-models-and-ask-gemma.mjs
 ```

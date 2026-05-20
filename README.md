@@ -1,35 +1,23 @@
 # SHARCNET Brine examples
 
-Demo scripts for Pilot Participants using the SHARCNET Brine OpenAI-compatible API.
+Small demo scripts for the SHARCNET Brine OpenAI-compatible API.
 
-Each example does the same two things:
+Each script does two things:
 
 1. Lists available models with `GET /models`.
-2. Sends a real chat question to the Gemma model, defaulting to `gemma-4-31B-it`.
+2. Asks the Gemma model: "In two sentences, explain what high performance computing is."
 
-## Configure access
+## Set your access details
 
-Copy the example environment file and fill in the service URL and your Access Key:
-
-```bash
-cp .env.example .env
-$EDITOR .env
-```
-
-Required settings:
+Either edit the variables near the top of each script, or export them in your shell:
 
 ```bash
-BRINE_BASE_URL="https://brine.example.org/v1"
-BRINE_API_KEY="paste-your-access-key-here"
+export BRINE_BASE_URL="https://brine.example.org/v1"
+export BRINE_API_KEY="paste-your-access-key-here"
+export BRINE_MODEL="gemma-4-31B-it"
 ```
 
-Optional setting:
-
-```bash
-BRINE_MODEL="gemma-4-31B-it"
-```
-
-You can also export these variables directly in your shell instead of creating `.env`.
+`BRINE_MODEL` is optional. The default is `gemma-4-31B-it`.
 
 ## Run the examples
 
@@ -42,16 +30,14 @@ cd curl
 
 ### Python
 
-Uses only the Python standard library.
-
 ```bash
 cd python
-python3 list_models_and_ask_gemma.py
+uv run --with requests list_models_and_ask_gemma.py
 ```
 
 ### JavaScript
 
-Requires Node.js 18+ for built-in `fetch`.
+Requires Node.js 18+.
 
 ```bash
 cd javascript
@@ -60,6 +46,5 @@ node list-models-and-ask-gemma.mjs
 
 ## Notes
 
-- Treat `BRINE_API_KEY` as a secret. Do not commit `.env`.
+- Treat `BRINE_API_KEY` as a secret.
 - Do not submit Sensitive Data to SHARCNET Brine during the pilot.
-- The examples use OpenAI-compatible endpoints, so the same request shape works across curl, Python, and JavaScript.
