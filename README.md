@@ -44,6 +44,10 @@ cd javascript
 node list-models-and-ask-gemma.mjs
 ```
 
+## Model cards
+
+See [`model-cards/README.md`](model-cards/README.md) for public details about currently served models, including context limits and tool support.
+
 ## Notes
 
 - Treat `BRINE_API_KEY` as a secret.
