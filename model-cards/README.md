@@ -8,7 +8,7 @@ The live model list from `GET /v1/models` is authoritative for availability. Mod
 | --- | ---: | --- | --- |
 | `gemma-4-31B-it` | 32,768 tokens | Supported | No service-level weight quantization configured |
 | `gpt-oss-120b` | 131,072 tokens | Supported | FP8 KV cache |
-| `Qwen3.6-35B-A3B` | 131,072 tokens | Supported | No service-level weight quantization configured |
+| `Qwen3.8-27B` | 131,072 tokens | Supported | BF16 weights; no service-level weight quantization configured |
 | `DeepSeek-V4-Flash-0731` | 131,072 tokens | Supported | FP8 KV cache |
 
 ## Service notes
