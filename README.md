@@ -33,6 +33,9 @@ cd curl
 ```bash
 cd python
 uv run --with requests list_models_and_ask_gemma.py
+
+# Interactive microphone transcription
+uv run transcribe_microphone.py
 ```
 
 ### JavaScript

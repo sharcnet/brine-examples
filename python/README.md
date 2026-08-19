@@ -15,6 +15,16 @@ export BRINE_API_KEY="paste-your-access-key-here"
 uv run --with requests list_models_and_ask_gemma.py
 ```
 
+### Transcribe your microphone
+
+The transcription script declares its Python dependency for uv and records
+through `pw-record`, supplied by PipeWire tools on Linux. Press Enter once to
+start recording and again to stop and submit it.
+
+```bash
+uv run transcribe_microphone.py
+```
+
 ## Option 2: virtual environment
 
 ```bash
