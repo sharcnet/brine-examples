@@ -6,7 +6,7 @@ The live model list from `GET /v1/models` is authoritative for availability. Mod
 
 | Model | Modality | Service limit | Tool calling | Notes |
 | --- | --- | ---: | --- | --- |
-| `gemma-4-31B-it` | Chat | 32,768 tokens | Supported | No service-level weight quantization configured |
+| `gemma-4-31B-it` | Chat | 32,768 tokens | Supported | BF16 weights; no service-level weight quantization configured |
 | `Qwen3.8-27B` | Chat | 131,072 tokens | Supported | BF16 weights; no service-level weight quantization configured |
 | `DeepSeek-V4-Flash-0731` | Chat | 131,072 tokens | Supported | FP8 KV cache |
 | `qwen3-embed` | Embedding | 8,192 tokens | Not applicable | 4,096-dimensional vectors |
