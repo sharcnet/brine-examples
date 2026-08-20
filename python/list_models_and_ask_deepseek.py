@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""List models, then ask Gemma a question."""
+"""List models, then ask DeepSeek a question."""
 
 import os
 import requests
@@ -9,7 +9,7 @@ import requests
 #   export BRINE_API_KEY="your-access-key"
 BRINE_BASE_URL = os.getenv("BRINE_BASE_URL", "https://brine.example.org/v1")
 BRINE_API_KEY = os.getenv("BRINE_API_KEY", "your-access-key")
-BRINE_MODEL = os.getenv("BRINE_MODEL", "gemma-4-31B-it")
+BRINE_MODEL = os.getenv("BRINE_MODEL", "DeepSeek-V4-Flash-0731")
 
 QUESTION = "In two sentences, explain what high performance computing is."
 

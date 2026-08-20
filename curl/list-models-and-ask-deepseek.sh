@@ -6,7 +6,7 @@ set -e
 #   export BRINE_API_KEY="your-access-key"
 BRINE_BASE_URL="${BRINE_BASE_URL:-https://brine.example.org/v1}"
 BRINE_API_KEY="${BRINE_API_KEY:-your-access-key}"
-BRINE_MODEL="${BRINE_MODEL:-gemma-4-31B-it}"
+BRINE_MODEL="${BRINE_MODEL:-DeepSeek-V4-Flash-0731}"
 
 QUESTION="In two sentences, explain what high performance computing is."
 

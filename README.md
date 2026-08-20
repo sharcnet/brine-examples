@@ -5,7 +5,7 @@ Small demo scripts for the SHARCNET Brine OpenAI-compatible API.
 Each script does two things:
 
 1. Lists available models with `GET /models`.
-2. Asks the Gemma model: "In two sentences, explain what high performance computing is."
+2. Asks DeepSeek: "In two sentences, explain what high performance computing is."
 
 ## Set your access details
 
@@ -14,10 +14,10 @@ Either edit the variables near the top of each script, or export them in your sh
 ```bash
 export BRINE_BASE_URL="https://brine.example.org/v1"
 export BRINE_API_KEY="paste-your-access-key-here"
-export BRINE_MODEL="gemma-4-31B-it"
+export BRINE_MODEL="DeepSeek-V4-Flash-0731"
 ```
 
-`BRINE_MODEL` is optional. The default is `gemma-4-31B-it`.
+`BRINE_MODEL` is optional. The default is `DeepSeek-V4-Flash-0731`.
 
 ## Run the examples
 
@@ -25,14 +25,14 @@ export BRINE_MODEL="gemma-4-31B-it"
 
 ```bash
 cd curl
-./list-models-and-ask-gemma.sh
+./list-models-and-ask-deepseek.sh
 ```
 
 ### Python
 
 ```bash
 cd python
-uv run --with requests list_models_and_ask_gemma.py
+uv run --with requests list_models_and_ask_deepseek.py
 
 # Interactive microphone transcription
 uv run transcribe_microphone.py
@@ -44,7 +44,7 @@ Requires Node.js 18+.
 
 ```bash
 cd javascript
-node list-models-and-ask-gemma.mjs
+node list-models-and-ask-deepseek.mjs
 ```
 
 ## Model cards

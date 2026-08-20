@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// List models, then ask Gemma a question.
+// List models, then ask DeepSeek a question.
 // Requires Node.js 18+ for built-in fetch.
 
 // Fill these in, or set them before running the script:
@@ -7,7 +7,7 @@
 //   export BRINE_API_KEY="your-access-key"
 const BRINE_BASE_URL = process.env.BRINE_BASE_URL || "https://brine.example.org/v1";
 const BRINE_API_KEY = process.env.BRINE_API_KEY || "your-access-key";
-const BRINE_MODEL = process.env.BRINE_MODEL || "gemma-4-31B-it";
+const BRINE_MODEL = process.env.BRINE_MODEL || "DeepSeek-V4-Flash-0731";
 
 const QUESTION = "In two sentences, explain what high performance computing is.";
 
