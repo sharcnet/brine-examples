@@ -2,9 +2,9 @@
 set -e
 
 # Fill these in, or set them before running the script:
-#   export BRINE_BASE_URL="https://brine.example.org/v1"
+#   export BRINE_BASE_URL="https://brine.sharcnet.ca/v1"
 #   export BRINE_API_KEY="your-access-key"
-BRINE_BASE_URL="${BRINE_BASE_URL:-https://brine.example.org/v1}"
+BRINE_BASE_URL="${BRINE_BASE_URL:-https://brine.sharcnet.ca/v1}"
 BRINE_API_KEY="${BRINE_API_KEY:-your-access-key}"
 BRINE_MODEL="${BRINE_MODEL:-DeepSeek-V4-Flash-0731}"
 

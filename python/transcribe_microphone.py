@@ -11,7 +11,7 @@ import tempfile
 
 import requests
 
-BASE_URL = os.getenv("BRINE_BASE_URL", "https://brine.example.org/v1")
+BASE_URL = os.getenv("BRINE_BASE_URL", "https://brine.sharcnet.ca/v1")
 API_KEY = os.getenv("BRINE_API_KEY", "your-access-key")
 MODEL = os.getenv("BRINE_TRANSCRIPTION_MODEL", "whisper-large-v3-turbo")
 

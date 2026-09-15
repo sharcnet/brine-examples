@@ -3,9 +3,9 @@
 // Requires Node.js 18+ for built-in fetch.
 
 // Fill these in, or set them before running the script:
-//   export BRINE_BASE_URL="https://brine.example.org/v1"
+//   export BRINE_BASE_URL="https://brine.sharcnet.ca/v1"
 //   export BRINE_API_KEY="your-access-key"
-const BRINE_BASE_URL = process.env.BRINE_BASE_URL || "https://brine.example.org/v1";
+const BRINE_BASE_URL = process.env.BRINE_BASE_URL || "https://brine.sharcnet.ca/v1";
 const BRINE_API_KEY = process.env.BRINE_API_KEY || "your-access-key";
 const BRINE_MODEL = process.env.BRINE_MODEL || "DeepSeek-V4-Flash-0731";
 

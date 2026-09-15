@@ -3,7 +3,7 @@
 Edit the variables at the top of `list_models_and_ask_deepseek.py`, or export them first:
 
 ```bash
-export BRINE_BASE_URL="https://brine.example.org/v1"
+export BRINE_BASE_URL="https://brine.sharcnet.ca/v1"
 export BRINE_API_KEY="paste-your-access-key-here"
 ```
 

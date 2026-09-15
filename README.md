@@ -12,7 +12,7 @@ Each script does two things:
 Either edit the variables near the top of each script, or export them in your shell:
 
 ```bash
-export BRINE_BASE_URL="https://brine.example.org/v1"
+export BRINE_BASE_URL="https://brine.sharcnet.ca/v1"
 export BRINE_API_KEY="paste-your-access-key-here"
 export BRINE_MODEL="DeepSeek-V4-Flash-0731"
 ```
