@@ -25,6 +25,15 @@ start recording and again to stop and submit it.
 uv run transcribe_microphone.py
 ```
 
+### Generate an image
+
+Pass a prompt as arguments. The image is saved as `image.png` in the current
+directory.
+
+```bash
+uv run generate_image.py "A robot holding a sign that reads HELLO BRINE"
+```
+
 ## Option 2: virtual environment
 
 ```bash

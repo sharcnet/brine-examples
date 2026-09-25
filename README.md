@@ -36,6 +36,9 @@ uv run --with requests list_models_and_ask_deepseek.py
 
 # Interactive microphone transcription
 uv run transcribe_microphone.py
+
+# Generate an image from a prompt (saves image.png)
+uv run generate_image.py "A lighthouse on Lake Huron at dusk"
 ```
 
 ### JavaScript
