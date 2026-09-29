@@ -26,6 +26,9 @@ export BRINE_MODEL="DeepSeek-V4-Flash-0731"
 ```bash
 cd curl
 ./list-models-and-ask-deepseek.sh
+
+# Alternative: send a prompt using the Responses endpoint
+bash ask-with-responses.sh
 ```
 
 ### Python
