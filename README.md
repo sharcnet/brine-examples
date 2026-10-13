@@ -60,4 +60,4 @@ See [`model-cards/README.md`](model-cards/README.md) for public details about cu
 ## Notes
 
 - Treat `BRINE_API_KEY` as a secret.
-- Do not submit Sensitive Data to SHARCNET Brine during the pilot.
+- Do not submit Sensitive Data to SHARCNET Brine.
